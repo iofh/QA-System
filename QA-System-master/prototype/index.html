@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Floating labels example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!--<link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- Custom styles for this template -->
+    <link href="chat-bot.css" rel="stylesheet">
+</head>
+
+<body>
+    <form class="form-chatbot">
+        <div class="text-center mb-4">
+            <!--<img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">-->
+            <h1 class="h3 mb-3 font-weight-normal">Experimental ChatBot</h1>
+            <p>The ChatBot is built to answer a user question by retrieving information from a specified domain.</p>
+        </div>
+        <div class="border-top my-3"></div>
+
+        <div class="form-label-group">
+            <select class="from-control browser-default custom-select">
+                <option selected>Please choose your domain</option>
+                <option value="1">Polytechnic</option>
+                <option value="2">Otago University</option>
+            </select>
+            <!--<input type="email" id="domain" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputEmail">Domain: </label>-->
+        </div>
+        <div class="form-label-group">
+            <input type="textbox" id="question" class="form-control browser-default " placeholder="Your question" required autofocus>
+            <label for="question">Your question</label>
+        </div>
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Check answer</button>
+        <div class="border-top my-3"></div>
+        <div class="form-label-group">
+            <h5>Your question is:</h5>
+            <p class="form-control">When the 1st semester of 2020 starts?</p>
+            <h5>The answer we retrieved:</h5>
+            <p class="form-control">It's Feb 17, 2020 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                bla bla bla bla bla bla bla bla bla bla
+                bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                bla bla bla bla bla bla bla</p>
+        </div>
+        <p class="mt-5 mb-3 text-muted text-center">&copy; BIT - Polytechnic 2020</p>
+    </form>
+</body>
+
+</html>
